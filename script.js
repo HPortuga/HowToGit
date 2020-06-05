@@ -7,13 +7,7 @@ var listaDeTarefas = [
   "Arrumar a casa",
   "limpar o banheiro",
   "dá uns bejo",
-  "come"
+  "come",
+  "fazer o rosh",
+  "acender o carvão",
 ]
-
-function carregarLista() {
-  listaDeTarefas.forEach((item) => {
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(item));
-    ul.appendChild(li);
-  });
-}
