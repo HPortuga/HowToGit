@@ -12,6 +12,8 @@ var listaDeTarefas = [
   "come",
   "fazer o rosh",
   "acender o carvão",
+  "Limpar a piscina",
+  "FUgir dos porco",
 ]
 
 
