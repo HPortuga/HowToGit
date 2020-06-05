@@ -27,8 +27,9 @@ function carregarLista() {
 }
 
 function addList() {
-  console.log("EStou adicionando");
-}carregarLista()
+  listaDeTarefas.push(input.value)
+  carregarLista();
+}
 
 enterButton.addEventListener("click", () => {
   addList();
