@@ -2,6 +2,7 @@ var enterButton = document.getElementById("enter");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
 var item = document.getElementsByTagName("li");
+var powButton = document.getElementById("pow");
 
 var listaDeTarefas = [
   "Arrumar a casa",
@@ -24,4 +25,8 @@ function carregarLista() {
     li.appendChild(document.createTextNode(item));
     ul.appendChild(li);
   });
+}
+
+function discarregoNoEmocionado() {
+  
 }
