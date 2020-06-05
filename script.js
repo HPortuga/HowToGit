@@ -6,8 +6,8 @@ var item = document.getElementsByTagName("li");
 var listaDeTarefas = [
   "Arrumar a casa",
   "limpar o banheiro",
-  "Fazer uma tarefa qualquer",
-  "Trabalho de ED",
+  "Lavar o carro",
+  "Tomar cerveja",
   "dá uns bejo",
   "come",
   "fazer o rosh",
@@ -18,14 +18,3 @@ var listaDeTarefas = [
   "arrumar as impressoras",
   "formatar o rwindows" 
 ]
-
-
-function carregarLista() {
-  listaDeTarefas.forEach((item) => {
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(item));
-    ul.appendChild(li);
-  });
-}
-
-
