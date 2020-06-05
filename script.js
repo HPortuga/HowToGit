@@ -1,17 +1,7 @@
 var enterButton = document.getElementById("enter");
 var input = document.getElementById("userInput");
-var ul = doucment.getElementByTagName("ul");
+var ul = document.getElementByTagName("ul");
 var item = document.getElementsByTagName("li");
-
-
-
-function carregarLista() {
-  listaDeTarefas.forEach((item) => {
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(item));
-    ul.appendChild(li);
-  });
-}
 
 var listaDeTarefas = [
   "Arrumar a casa",
@@ -26,4 +16,14 @@ var listaDeTarefas = [
   "arrumar as impressoras",
   "formatar o rwindows" 
 ]
+
+
+function carregarLista() {
+  listaDeTarefas.forEach((item) => {
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode(item));
+    ul.appendChild(li);
+  });
+}
+
 
