@@ -15,7 +15,7 @@ var listaDeTarefas = [
   "Limpar a piscina",
   "FUgir dos porco",
   "arrumar as impressoras",
-  "formatar o rwindows" 
+  "formatar o rwindows"
 ]
 
 function carregarLista() {
