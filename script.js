@@ -14,7 +14,14 @@ var listaDeTarefas = [
   "acender o carvão",
   "Limpar a piscina",
   "FUgir dos porco",
-
   "arrumar as impressoras",
   "formatar o rwindows" 
 ]
+
+function carregarLista() {
+  listaDeTarefas.forEach((item) => {
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode(item));
+    ul.appendChild(li);
+  });
+}
