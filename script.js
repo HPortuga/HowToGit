@@ -25,3 +25,11 @@ function carregarLista() {
     ul.appendChild(li);
   });
 }
+
+function addList() {
+  console.log("EStou adicionando");
+}
+
+enterButton.addEventListener("click", () => {
+  addList();
+})
