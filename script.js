@@ -5,6 +5,7 @@ var item = document.getElementsByTagName("li");
 var powButton = document.getElementById("pow");
 
 var listaDeTarefas = [
+  "-------------------NAO ME APAGA----------------------",
   "Arrumar a casa",
   "limpar o banheiro",
   "Lavar o carro",
@@ -29,4 +30,10 @@ function carregarLista() {
 
 function discarregoNoEmocionado() {
   var emocionado = input.value;
+  listaDeTarefas.splice(listaDeTarefas.indexOf(emocionado), 1);
 }
+
+function carregaEmocionado() {
+  carregarLista();
+}
+carregarLista();
