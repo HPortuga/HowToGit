@@ -1,14 +1,19 @@
 var enterButton = document.getElementById("enter");
 var input = document.getElementById("userInput");
-var ul = doucment.getElementByTagName("ul");
+var ul = document.getElementByTagName("ul");
 var item = document.getElementsByTagName("li");
 
 var listaDeTarefas = [
   "Arrumar a casa",
   "limpar o banheiro",
-  "Botar o lixo pra fora",
-  "Ir para o trabalho",
+  "Fazer uma tarefa qualquer",
+  "Trabalho de ED",
+  "dá uns bejo",
+  "come",
+  "fazer o rosh",
+  "acender o carvão",
 ]
+
 
 function carregarLista() {
   listaDeTarefas.forEach((item) => {
@@ -17,3 +22,5 @@ function carregarLista() {
     ul.appendChild(li);
   });
 }
+
+
