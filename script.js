@@ -28,8 +28,9 @@ function carregarLista() {
 
 function addList() {
   console.log("EStou adicionando");
-}
+}carregarLista()
 
 enterButton.addEventListener("click", () => {
   addList();
 })
+carregarLista();
