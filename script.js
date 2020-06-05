@@ -28,5 +28,5 @@ function carregarLista() {
 }
 
 function discarregoNoEmocionado() {
-  
+  var emocionado = input.value;
 }
