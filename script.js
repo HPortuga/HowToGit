@@ -6,6 +6,8 @@ var item = document.getElementsByTagName("li");
 var listaDeTarefas = [
   "Arrumar a casa",
   "limpar o banheiro",
+  "dá uns bejo",
+  "come"
 ]
 
 function carregarLista() {
