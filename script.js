@@ -1,6 +1,6 @@
 var enterButton = document.getElementById("enter");
 var input = document.getElementById("userInput");
-var ul = doucment.getElementByTagName("ul");
+var ul = document.querySelector("ul");
 var item = document.getElementsByTagName("li");
 
 var listaDeTarefas = [
@@ -12,4 +12,7 @@ var listaDeTarefas = [
   "come",
   "fazer o rosh",
   "acender o carvão",
+
+  "arrumar as impressoras",
+  "formatar o rwindows" 
 ]
