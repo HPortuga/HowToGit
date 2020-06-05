@@ -22,4 +22,8 @@ var listaDeTarefas = [
   "come",
   "fazer o rosh",
   "acender o carvão",
+
+  "arrumar as impressoras",
+  "formatar o rwindows" 
 ]
+
